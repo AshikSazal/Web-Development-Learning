@@ -1,0 +1,67 @@
+.fb-login-menubar {
+  font-family: inherit;
+  height: 84px;
+  background-color: #3b5998;
+}
+
+body {
+  color: #1c1e21;
+  direction: ltr;
+  line-height: 1.34;
+  margin: 0 0 0 0;
+}
+.go-to-home{
+  margin-left: 269.5px;
+  display: inline-block;
+}
+.go-to-home2 {
+  background-image: url(image/fb_image.png);
+  background-size: 500px 254px;
+  display: inline-block;
+  width: 168px;
+  height: 34px;
+  background-position: 0 -200px;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+td{
+  padding: 0 15px 0 0;
+}
+.email-pass {
+  margin-top: 15px;
+  float: right;
+  margin-right: 260px;
+  color: white;
+  font-family: Futura, sans-serif;
+  font-size: 12px;
+}
+.email-pass-area{
+  border-color: #1d2a5b;
+  width: 150px;
+  height: 20px;
+  border: 1px;
+
+}
+.btn{
+  background-color: #4267b2;;
+  border-color: #29487d;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 0;
+  padding: 1px 3px 1px 3px;
+  white-space: nowrap;
+}
+.forgot a{
+  color: #9cb4d8;
+}
+a:hover{
+  text-decoration: underline;
+}

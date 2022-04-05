@@ -1,0 +1,320 @@
+body{
+  margin: 0;
+}
+@media screen and (max-width: 720px) {
+    .menu-bar {
+      display:none
+    }
+}
+
+/* upper side */
+
+.full-upper-side{
+  background-color: #0A3316;
+  height: 9vw;
+  display: block;
+}
+.dkm{
+  text-align: center;
+  font-family: 'Monotype Corsiva';
+  margin-top: -.93vw;
+  font-size: 1vw;
+}
+.name{
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  margin-top: -1.8vw;
+  font-size: 1.56vw;
+}
+.policy{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 2.28vw 0 2.28vw;
+  font-style: italic;
+  font-size: 1.56vw;
+  color: #E3F104;
+}
+
+/* upper side menu */
+
+.menu-bar{
+  background-color: #0A3316;
+  margin-left: 11.25vw;
+}
+a{
+  text-decoration: none;
+  color: #800000;
+}
+.dropbtn {
+  color: #E3F104;
+  font-size: 1vw;
+  border: none;
+  background-color:  #0A3316;
+  font-family: Goudy Old Style;
+  padding: 0 2vw 0 2vw;
+  font-family: 'Merriweather-Regular';
+  min-width: 9.4vw;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: inline-block;
+  margin-top: -2vw;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: #0A3316;
+  min-width: 15.6vw;
+}
+
+.dropdown-content .menu {
+  color: #E3F104;
+  padding: .7vw 1.8vw;
+  display: block;
+}
+
+.dropdown-content .menu:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: white;
+}
+.academic:hover .dropdown-content {
+  display: block;
+  margin-left: -16.875vw;
+  max-width: 62.5vw;
+}
+.faculty{
+  color: white;
+}
+.ece-me{
+  display: inline-flex;
+}
+.cse-eee .menu{
+  margin-top: -.625vw;
+  margin-left: 2.5vw;
+  color: #f1c992;
+}
+.me-ipe .menu{
+  margin-top: -.63vw;
+  margin-left: 2.5vw;
+  color: #f1c992;
+}
+.civil-bs{
+  display: inline-flex;
+}
+.civil2 .menu{
+  margin-top: -.63vw;
+  margin-left: 2.5vw;
+  color: #f1c992;
+}
+.bba-mba{
+  margin-left: 14.69vw;
+}
+.bba-mba2 .menu{
+  margin-top: -.63vw;
+  margin-left: 2.5vw;
+  color: #f1c992;
+}
+
+.sh{
+  display: inline-flex;
+}
+.e-a .menu{
+  margin-top: -.63vw;
+  margin-left: 2.5vw;
+  color: #f1c992;
+}
+.aca-exam{
+  display: flex;
+}
+.exam .menu{
+  margin-left: 34.4vw;
+  margin-top: -2.5vw;
+}
+.administration{
+  margin-left: 17vw;
+}
+.cdao{
+  list-style-type: none;
+  padding: 0 2.28vw 0 2.28vw;
+  color: #E3F104;
+  display: block;
+  margin-top: 1.875vw;
+  font-size: 1vw;
+}
+.administration:hover .dropdown-content {
+  display: block;
+  margin-left: -42.5vw;
+}
+
+.bofi{
+  margin-top: -6vw;
+  list-style-type: none;
+  padding: 0 2.28vw 0 2.28vw;
+  font-size: 100%;
+  color: #E3F104;
+  margin-left: 16.87vw;
+  color: #E3F104;
+  margin-bottom: 1.875vw;
+}
+.oopc{
+  margin-top: -7.5vw;
+  list-style-type: none;
+  padding: 0 2.28vw 0 2.28vw;
+  font-size: 100%;
+  color: #E3F104;
+  margin-left: 33.75vw;
+  font-size: 100%;
+  margin-bottom: 2.5vw;
+}
+.menu2{
+  color: #E3F104;
+}
+.menu2:hover{
+  color: white;
+  text-decoration: underline;
+}
+.osa{
+  margin-top: -7.1875vw;
+  list-style-type: none;
+  padding: 0 2.28vw 0 2.28vw;
+  font-size: 100%;
+  color: #E3F104;
+  margin-left: 50.625vw;
+  font-size: 100%;
+  margin-bottom: 3.125vw;
+}
+/* Logo */
+.logo {
+  margin-left: 45vw;
+  width: 50%;
+  height: 50%;
+  margin-top: -4.375vw;
+}
+/* front pic */
+
+.front-pic>img{
+  margin-top: -3.5vw;
+  width: 98.7vw;
+  height: 39vw;
+  position: absolute;
+  z-index: -1;
+}
+.logo{
+  margin-left: 43.75vw;
+}
+.left-btn {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  color: black;
+  background-color: Transparent;
+  border: none;cursor:pointer;
+  overflow: hidden;
+}
+.right-btn {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  color: black;
+  background-color: Transparent;
+  border: none;cursor:pointer;
+  overflow: hidden;
+}
+/* blue & meassage */
+.blue{
+  background-color: #00003f;
+  margin-top: 34.1vw;
+  height: 43.75vw;
+}
+
+.message{
+  margin-left: 12.5vw;
+  margin-top: -36vw;
+  height: 28.125vw;
+  width: 15.625vw;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  font-size: .9vw;
+  align="justify";
+  background-color: white;
+}
+.mess{
+  padding: .19vw .19vw .19vw .19vw;
+}
+.pic>img{
+  padding-top: .625vw;
+  margin-left: 3.125vw;
+}
+.message-from-vc{
+  background-color: #3F48CC;
+  color: white;
+  height: 2.5vw;
+  text-align: center;
+  margin-top: -1.125vw;
+  padding-bottom: .625vw;
+}
+.message-from-vc h3{
+  display: inline-block;
+}
+.welcome{
+  height: 21.875vw;
+  width: 31.25vw;
+  background-color: white;
+  margin-left: 37.5vw;
+  margin-top: -26.875vw;
+}
+.wel-to{
+  background-color: #3F48CC;
+  color: white;
+  height: 2.5vw;
+  text-align: center;
+  margin-top: -1.125vw;
+  padding-bottom: .625vw;
+}
+.wel-to h3{
+  display: inline-block;
+}
+.text p{
+  font-size: 1vw;
+  align="justify";
+}
+
+/* footer */
+
+.footer{
+  height: 25vw;
+  background-color: #444444;
+  margin-top: 5.94vw;
+}
+.rl{
+  color: white;
+  margin-left: 12.5vw;
+  font-family: sans-serif;
+  position: absolute;
+}
+.rl ul{
+  margin-left: -.625vw;
+  margin-top: -.625vw;
+}
+.contact{
+  position: absolute;
+  color: white;
+  margin-left: 37.5vw;
+}
+.contact ul{
+  list-style-type: none;
+  margin-left: -1.25vw;
+  margin-top: -.625vw;
+}

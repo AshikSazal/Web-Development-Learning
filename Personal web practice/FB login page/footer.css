@@ -1,0 +1,79 @@
+#EF{
+  color: #737373;
+}
+.footer{
+  float: left;
+  position: absolute;
+  margin-top: 640px;
+  margin-left: 230px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+a{
+  color: #385898;
+}
+ul{
+  list-style-type: none;
+}
+.page_footer_list_upper>li{
+  padding-right: 6px;
+  display: inline-block;
+  font-size: 12px;
+}
+.language-select{
+  background-position: -28px -304px;
+  bottom: 1px;
+  position: relative;
+  vertical-align: middle;
+  background-image: url(image/footer_logo.png);
+  background-size: 54px 318px;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  line-height: 18px;
+  text-decoration: none;
+}
+.plus-logo{
+  border: 1px solid;
+  padding: 0 8px;
+  line-height: 18px;
+  border-color: #ccd0d5;
+
+}
+._hover:hover{
+  background-color: #f5f6f7;
+  color: #4b4f56;
+}
+.contentcurve{
+  margin:-12px 20px 0 39px;
+  border-bottom: 1px solid #dddfe2;
+  font-size: 1px;
+  height: 8px;
+  margin-bottom: 8px;
+}
+.pagefooterchildern{
+  margin-right: 20px;
+}
+.page_footer_list > li{
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.fb_icon{
+  position: absolute;
+  top: 70px;
+  background-position: -108px -236px;
+  background-image: url(image/fb_image.png);
+  background-size: 500px 254px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+#terms{
+  margin-left: 15px;
+}
+.footer-last{
+  margin: 15px 0 20px 40px;
+  color: #737373;
+}

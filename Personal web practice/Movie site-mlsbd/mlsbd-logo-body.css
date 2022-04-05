@@ -1,0 +1,136 @@
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #eaeaea;
+}
+.image-logo{
+  height: 100px;
+  width: auto;
+  margin: 121px 0 0 50px;
+  display:
+}
+body{
+  background-color: rgb(40,44,52);
+}
+.covid-19{
+  color: #eaeaea;
+  margin-top: -225px;
+  margin-left: 735px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.heading-text{
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  font-style: oblique;
+}
+.paragraph{
+  font-size: 20px;
+  font-family: 'Google', sans-serif;
+  text-align: center;
+  margin-top: -10px;
+  font-weight: 400;
+  font-style: oblique;
+}
+
+/* Home Bar section */
+
+.home-search-section{
+  line-height: 45px;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'Google', sans-serif;
+}
+.home-section{
+  background-color: #0A0909;
+  margin-left: -15px;
+}
+ul li{
+  display: inline-block;
+  padding-right: 10px;
+}
+a:hover{
+  color: red;
+}
+.search{
+  background: #2d2d2d;
+  color: #eaeaea;
+  line-height: 45px;
+  border: 1px solid #0A0909;
+  border-bottom: .5px;
+  width: 625px;
+  padding-left: 15px;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: 'Google', sans-serif;
+}
+.ab-search::before {
+    content: "\e9c1";
+}
+.ab{
+  font-family: 'ABfont' !important;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 45px;
+  color: #eaeaea;
+}
+button {
+  flex: 0;
+  border: none;
+  background: #0A0909;
+  cursor: pointer;
+  line-height: 45px;
+  font-family: 'ABfont' !important;
+}
+
+/* Main post area */
+.upcomming-movies::before {
+  content: 'Upcoming:';
+  color:  white;
+  position: absolute;
+  height: 27px;
+  width: 80px;
+  background-color: #0A0909;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.grid{
+  background-color: red;
+  border-radius: 7px;
+  color: white;
+}
+.container{
+  margin-left: 180px;
+  margin-right: 600px;
+  width: 727px;
+}
+.section-title span::after {
+  content: "";
+  position: absolute;
+  height: 145%;
+  width: 87%;
+  background: #0A0909;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 10px;
+
+}
+.section-title span {
+  margin-left: 320px;
+  position: relative;
+  padding: 5px 10px;
+  background: #FB1114;
+  border: 2px solid #0A0909;
+  border-radius: 10px;
+  font-family: 'Exo', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+.section{
+  margin-top: 25px;
+}
